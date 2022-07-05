@@ -18,3 +18,227 @@ in SYSTEMPATH/CodeIgniter.php on line 231.
  1 SYSTEMPATH/CodeIgniter.php(231): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
  2 SYSTEMPATH/CodeIgniter.php(189): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
  3 FCPATH/index.php(43): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-07-04 21:17:45 --> Call to undefined function App\Controllers\multiRequest()
+in APPPATH/Controllers/Marvel.php on line 47.
+ 1 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Marvel->colaborators('ironman')
+ 2 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marvel))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-04 21:17:51 --> Call to undefined function App\Controllers\multiRequest()
+in APPPATH/Controllers/Marvel.php on line 47.
+ 1 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Marvel->colaborators('ironman')
+ 2 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marvel))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-04 21:17:57 --> Call to undefined function App\Controllers\multiRequest()
+in APPPATH/Controllers/Marvel.php on line 47.
+ 1 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Marvel->colaborators('ironman')
+ 2 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marvel))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-04 21:20:17 --> json_decode() expects parameter 1 to be string, array given
+in APPPATH/Controllers/Marvel.php on line 47.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'json_decode() expects parameter 1 to be string, array given', 'APPPATH/Controllers/Marvel.php', 47, [...])
+ 2 APPPATH/Controllers/Marvel.php(47): json_decode([...])
+ 3 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Marvel->colaborators('ironman')
+ 4 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marvel))
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-04 21:21:46 --> Maximum execution time of 30 seconds exceeded
+in APPPATH/Controllers/Marvel.php on line 111.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-07-04 21:58:02 --> in_array() expects parameter 2 to be array, null given
+in APPPATH/Controllers/Marvel.php on line 80.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'in_array() expects parameter 2 to be array, null given', 'APPPATH/Controllers/Marvel.php', 80, [...])
+ 2 APPPATH/Controllers/Marvel.php(80): in_array('A+X (2012) #2', null)
+ 3 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Marvel->characters('ironman')
+ 4 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marvel))
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-04 21:58:12 --> in_array() expects parameter 2 to be array, null given
+in APPPATH/Controllers/Marvel.php on line 80.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'in_array() expects parameter 2 to be array, null given', 'APPPATH/Controllers/Marvel.php', 80, [...])
+ 2 APPPATH/Controllers/Marvel.php(80): in_array('A+X (2012) #2', null)
+ 3 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Marvel->characters('ironman')
+ 4 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marvel))
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-04 21:58:21 --> in_array() expects parameter 2 to be array, null given
+in APPPATH/Controllers/Marvel.php on line 80.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'in_array() expects parameter 2 to be array, null given', 'APPPATH/Controllers/Marvel.php', 80, [...])
+ 2 APPPATH/Controllers/Marvel.php(80): in_array('A+X (2012) #2', null)
+ 3 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Marvel->characters('ironman')
+ 4 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marvel))
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-04 22:10:37 --> strcmp() expects exactly 2 parameters, 1 given
+in APPPATH/Controllers/Marvel.php on line 80.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'strcmp() expects exactly 2 parameters, 1 given', 'APPPATH/Controllers/Marvel.php', 80, [...])
+ 2 APPPATH/Controllers/Marvel.php(80): strcmp('ironman')
+ 3 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Marvel->characters('ironman')
+ 4 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marvel))
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-04 22:10:43 --> strcmp() expects exactly 2 parameters, 1 given
+in APPPATH/Controllers/Marvel.php on line 80.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'strcmp() expects exactly 2 parameters, 1 given', 'APPPATH/Controllers/Marvel.php', 80, [...])
+ 2 APPPATH/Controllers/Marvel.php(80): strcmp('ironman')
+ 3 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Marvel->characters('ironman')
+ 4 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marvel))
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-04 22:32:53 --> Cannot call constructor
+in APPPATH/Controllers/Marvel.php on line 9.
+ 1 SYSTEMPATH/CodeIgniter.php(858): App\Controllers\Marvel->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-04 22:32:57 --> Cannot call constructor
+in APPPATH/Controllers/Marvel.php on line 9.
+ 1 SYSTEMPATH/CodeIgniter.php(858): App\Controllers\Marvel->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-04 22:33:01 --> Cannot call constructor
+in APPPATH/Controllers/Marvel.php on line 9.
+ 1 SYSTEMPATH/CodeIgniter.php(858): App\Controllers\Marvel->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-04 22:33:06 --> Cannot call constructor
+in APPPATH/Controllers/Marvel.php on line 9.
+ 1 SYSTEMPATH/CodeIgniter.php(858): App\Controllers\Marvel->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-04 22:33:58 --> Cannot call constructor
+in APPPATH/Controllers/Marvel.php on line 9.
+ 1 SYSTEMPATH/CodeIgniter.php(858): App\Controllers\Marvel->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-04 22:34:02 --> Cannot call constructor
+in APPPATH/Controllers/Marvel.php on line 9.
+ 1 SYSTEMPATH/CodeIgniter.php(858): App\Controllers\Marvel->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-04 22:34:05 --> Cannot call constructor
+in APPPATH/Controllers/Marvel.php on line 9.
+ 1 SYSTEMPATH/CodeIgniter.php(858): App\Controllers\Marvel->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-04 22:34:31 --> Cannot call constructor
+in APPPATH/Controllers/Marvel.php on line 9.
+ 1 SYSTEMPATH/CodeIgniter.php(858): App\Controllers\Marvel->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-04 22:36:27 --> Cannot call constructor
+in APPPATH/Controllers/Marvel.php on line 9.
+ 1 SYSTEMPATH/CodeIgniter.php(858): App\Controllers\Marvel->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-04 22:36:30 --> Cannot call constructor
+in APPPATH/Controllers/Marvel.php on line 9.
+ 1 SYSTEMPATH/CodeIgniter.php(858): App\Controllers\Marvel->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-04 22:38:11 --> Cannot call constructor
+in APPPATH/Controllers/Marvel.php on line 9.
+ 1 SYSTEMPATH/CodeIgniter.php(858): App\Controllers\Marvel->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-04 22:38:14 --> Cannot call constructor
+in APPPATH/Controllers/Marvel.php on line 9.
+ 1 SYSTEMPATH/CodeIgniter.php(858): App\Controllers\Marvel->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-04 22:38:16 --> Cannot call constructor
+in APPPATH/Controllers/Marvel.php on line 9.
+ 1 SYSTEMPATH/CodeIgniter.php(858): App\Controllers\Marvel->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-04 22:38:26 --> Cannot call constructor
+in APPPATH/Controllers/Marvel.php on line 9.
+ 1 SYSTEMPATH/CodeIgniter.php(858): App\Controllers\Marvel->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-04 22:39:30 --> Cannot call constructor
+in APPPATH/Controllers/Marvel.php on line 14.
+ 1 SYSTEMPATH/CodeIgniter.php(858): App\Controllers\Marvel->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-04 22:40:17 --> Cannot call constructor
+in APPPATH/Controllers/Marvel.php on line 14.
+ 1 SYSTEMPATH/CodeIgniter.php(858): App\Controllers\Marvel->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-04 22:41:33 --> Undefined variable: offset
+in APPPATH/Controllers/Marvel.php on line 33.
+ 1 APPPATH/Controllers/Marvel.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: offset', 'APPPATH/Controllers/Marvel.php', 33, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Marvel->colaborators('ironman')
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marvel))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-04 22:42:08 --> Trying to get property 'data' of non-object
+in APPPATH/Controllers/Marvel.php on line 98.
+ 1 APPPATH/Controllers/Marvel.php(98): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'data\' of non-object', 'APPPATH/Controllers/Marvel.php', 98, [...])
+ 2 APPPATH/Controllers/Marvel.php(36): App\Controllers\Marvel->allFind('iron man')
+ 3 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Marvel->colaborators('iron man')
+ 4 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marvel))
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-04 22:42:31 --> Trying to get property 'data' of non-object
+in APPPATH/Controllers/Marvel.php on line 98.
+ 1 APPPATH/Controllers/Marvel.php(98): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'data\' of non-object', 'APPPATH/Controllers/Marvel.php', 98, [...])
+ 2 APPPATH/Controllers/Marvel.php(36): App\Controllers\Marvel->allFind('iron man')
+ 3 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Marvel->colaborators('iron man')
+ 4 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marvel))
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-04 22:44:12 --> Trying to get property 'data' of non-object
+in APPPATH/Controllers/Marvel.php on line 99.
+ 1 APPPATH/Controllers/Marvel.php(99): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'data\' of non-object', 'APPPATH/Controllers/Marvel.php', 99, [...])
+ 2 APPPATH/Controllers/Marvel.php(36): App\Controllers\Marvel->allFind('iron man')
+ 3 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Marvel->colaborators('iron man')
+ 4 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marvel))
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-04 22:46:11 --> Trying to get property 'data' of non-object
+in APPPATH/Controllers/Marvel.php on line 99.
+ 1 APPPATH/Controllers/Marvel.php(99): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'data\' of non-object', 'APPPATH/Controllers/Marvel.php', 99, [...])
+ 2 APPPATH/Controllers/Marvel.php(36): App\Controllers\Marvel->allFind('iron man')
+ 3 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Marvel->colaborators('iron man')
+ 4 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marvel))
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-04 23:06:47 --> Call to a member function setRules() on null
+in APPPATH/Controllers/Marvel.php on line 36.
+ 1 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Marvel->colaborators('captain america')
+ 2 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marvel))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-04 23:07:03 --> Undefined variable: validation
+in APPPATH/Controllers/Marvel.php on line 36.
+ 1 APPPATH/Controllers/Marvel.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: validation', 'APPPATH/Controllers/Marvel.php', 36, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Marvel->colaborators('captain america')
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marvel))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-04 23:10:36 --> Argument 1 passed to CodeIgniter\Validation\Validation::withRequest() must implement interface CodeIgniter\HTTP\RequestInterface, array given, called in /var/www/html/app/Controllers/Marvel.php on line 41
+in SYSTEMPATH/Validation/Validation.php on line 348.
+ 1 APPPATH/Controllers/Marvel.php(41): CodeIgniter\Validation\Validation->withRequest([...])
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Marvel->colaborators('captain america')
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marvel))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()

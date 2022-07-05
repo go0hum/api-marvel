@@ -136,3 +136,11 @@
 #--------------------------------------------------------------------
 
 # curlrequest.shareOptions = true
+
+#--------------------------------------------------------------------
+# MARVEL API SETTINGS
+#--------------------------------------------------------------------
+
+API_MARVEL_URL = 'https://gateway.marvel.com/v1/public/';
+API_MARVEL_PUBLIC = 'xxxxxx'
+API_MARVEL_PRIVATE = 'xxxxx'
