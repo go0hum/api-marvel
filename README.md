@@ -5,11 +5,11 @@ The next step is run the command:
 ``docker-compose up -d``
 The next step is open the url code with the url 
 
-http://localhost:8080/marvel/colaborators/iron+man
-http://localhost:8080/marvel/characters/iron+man
+- http://localhost:8080/marvel/colaborators/iron+man
+- http://localhost:8080/marvel/characters/iron+man
 
-http://localhost:8080/marvel/colaborators/captain+america
-http://localhost:8080/marvel/characters/captain+america
+- http://localhost:8080/marvel/colaborators/captain+america
+- http://localhost:8080/marvel/characters/captain+america
 
 Thank You!
 
